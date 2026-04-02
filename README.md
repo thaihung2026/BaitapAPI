@@ -25,7 +25,7 @@ Dự án này cung cấp một RESTful API dùng để tóm tắt các đoạn v
 ### 2. Cài đặt thư viện
 Kích hoạt môi trường ảo (`.venv`) và chạy các lệnh sau trong Terminal:
 
-```bash
+```
 # Cài đặt các thư viện cơ bản từ file yêu cầu
 pip install -r requirements.txt
 
@@ -34,3 +34,6 @@ pip install protobuf
 
 # Hạ cấp transformers về bản ổn định để tương thích với kiến trúc T5
 pip install transformers==4.38.2
+```
+
+[![Demo API Tóm tắt văn bản]()]
