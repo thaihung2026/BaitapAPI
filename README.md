@@ -1,24 +1,22 @@
 # API Tóm Tắt Văn Bản Tiếng Việt (Vietnamese Text Summarization API)
 
 ## 📌 Giới thiệu dự án
-Dự án này cung cấp một RESTful API dùng để tóm tắt các đoạn văn bản/bài báo tiếng Việt. Hệ thống được xây dựng dựa trên framework **FastAPI** và sử dụng mô hình Trí tuệ Nhân tạo `VietAI/vit5-base-vietnews-summarization` (kiến trúc T5) từ thư viện Hugging Face Transformers.
+Dự án này cung cấp một RESTful API dùng để tóm tắt các đoạn văn bản/bài báo tiếng Việt. Hệ thống được xây dựng dựa trên framework **FastAPI** và sử dụng mô hình Trí tuệ Nhân tạo VietAIvit5-base-vietnews-summarization (kiến trúc T5) từ thư viện Hugging Face Transformers.
 
 **Thông tin sinh viên thực hiện:**
-- **Họ và tên:** [Điền tên của bạn vào đây]
-- **Mã số sinh viên:** [Điền MSSV vào đây]
-- **Môn học:** [Điền tên môn học, ví dụ: Thực hành Trí tuệ Nhân tạo / Xây dựng API]
+- **Họ và tên:** Từ Thái Hưng
+- **Mã số sinh viên:** 24120186
+- **Môn học:** Tư duy tính toán
 
 ---
 
 ## 🚀 Công nghệ sử dụng
-- **Ngôn ngữ:** Python 3.12 (Khuyến nghị sử dụng bản ổn định để tránh lỗi tương thích thư viện).
+- **Ngôn ngữ:** Python 3.12 
 - **Web Framework:** FastAPI, Uvicorn (ASGI server).
 - **AI/Machine Learning:** PyTorch (`torch`), Transformers (`transformers==4.38.2`), SentencePiece.
-- **Phần cứng:** Hỗ trợ chạy tăng tốc phần cứng trên GPU NVIDIA (CUDA) nếu có (Ví dụ: RTX 2050).
 
----
 
-## ⚙️ Hướng dẫn Cài đặt & Khởi chạy (Local)
+## Hướng dẫn Cài đặt & Khởi chạy (Local)
 
 ### 1. Yêu cầu hệ thống
 - Đã cài đặt Python 3.12.x.
