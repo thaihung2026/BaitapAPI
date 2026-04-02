@@ -1,6 +1,6 @@
 # API Tóm Tắt Văn Bản Tiếng Việt (Vietnamese Text Summarization API)
 
-Video: ![Demo API Tóm tắt văn bản](https://youtu.be/YKJw_X3U5Go)
+Video: [![Demo API Tóm tắt văn bản](https://img.youtube.com/vi/YKJw_X3U5Go/maxresdefault.jpg)](https://youtu.be/YKJw_X3U5Go)
 
 ## 📌 Giới thiệu dự án
 Dự án này cung cấp một RESTful API dùng để tóm tắt các đoạn văn bản/bài báo tiếng Việt. Hệ thống được xây dựng dựa trên framework **FastAPI** và sử dụng mô hình Trí tuệ Nhân tạo VietAIvit5-base-vietnews-summarization (kiến trúc T5) từ thư viện Hugging Face Transformers.
